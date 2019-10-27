@@ -1,0 +1,17 @@
+imports:
+- path: roles.jinja
+
+resources:
+- name: custom-role
+  type: roles.jinja
+  properties:
+    roleId: KoburaRole
+    title: Kobura-role
+    stage: EAP
+    description: My description.
+    includedPermissions:
+    - iam.roles.get
+    - iam.roles.list
+    - iam.serviceAccounts.getIamPolicy
+    - logging.logEntries.list
+    - managedidentities.domains.getIamPolicy
