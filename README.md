@@ -1,7 +1,7 @@
 # GCP Service Account Deployment
 Prerequisites
 - Enabled Deployment Manager and Cloud IAM APIs
-  Enable it by visiting https://console.developers.google.com/apis/api/iam.googleapis.com/overview?project=<PROJECT_ID>
+  Enable it by visiting https://console.developers.google.com/apis/api/iam.googleapis.com/overview
   
 - Enable API [deploymentmanager.googleapis.com] on your project
   To enable it on your project click the url below:
@@ -15,8 +15,8 @@ RUN THE FOLLOWING COMMANDS:
 1. Set cloud shell project project_id
    command:  gcloud config set project <project_id> (i.e advance-genre-239305)
 2. Create deployment
-   command: gcloud deployment-manager deployments create kobura-service-account --config kobura_service_account.yml  
+   command: gcloud deployment-manager deployments create kobura-service-account --config kobura_service_account.yml
+   
 
 More Info
 https://cloud.google.com/iam/docs/maintain-custom-roles-deployment-manager
-
