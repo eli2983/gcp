@@ -5,9 +5,9 @@ Prerequisites
   
 https://console.cloud.google.com/flows/enableapi?apiid=deploymentmanager,iam&_ga=2.80242391.-132539637.1571300522
 
-- Make sure "Google APIs service account" has the following permissions:
-   1.Role Administrato
-   2.
+- Make sure to add to xxxxx@cloudservices.gserviceaccount.com has the following roles:
+   1.Role/Role Administrator
+   2.IAM/Security Admin
    
 https://cloud.google.com/iam/docs/maintain-custom-roles-deployment-manager
 RUN THE FOLLOWING COMMANDS:
