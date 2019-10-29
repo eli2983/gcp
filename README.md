@@ -1,7 +1,10 @@
 # GCP Service Account Deployment
 Prerequisites
 - Enabled Deployment Manager and Cloud IAM APIs
+  Enable it by visiting https://console.developers.google.com/apis/api/iam.googleapis.com/overview?project=<PROJECT_ID>
+  
 https://console.cloud.google.com/flows/enableapi?apiid=deploymentmanager,iam&_ga=2.80242391.-132539637.1571300522
+
 - Make sure "Google APIs service account" has the following permissions:
    1.Role Administrato
    2.
